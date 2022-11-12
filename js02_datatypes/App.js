@@ -1,6 +1,5 @@
 // console.log('App js Running')
 
-
 // var a = 5;
 // console.log(a);
 
@@ -43,19 +42,17 @@ console.log(typeof '') */
 
 // console.log( typeof a)
 
-
 // let x;
 
 // do {
 //     x = prompt('enter a Number : ');
 // }while (isNaN(x));
 
-// console.log(x, x*x) 
+// console.log(x, x*x)
 
 // console.log('12' === 12)
 
 // console.log('12' * '12')
-
 
 // let x = 123456789001234
 // let y = 123456789001234123
@@ -77,7 +74,6 @@ console.log(typeof '') */
 
 // console.log(h)
 
-
 // let i = 'This "is "a\' """""s"""""tring';
 // let j = "This '''''i''s a\" string";
 // let k = `This is a string`;
@@ -85,8 +81,6 @@ console.log(typeof '') */
 // console.log(i,typeof i)
 // console.log(j,typeof j)
 // console.log(k,typeof k)
-
-
 
 // let userName = 'Musa  ';
 // console.log(userName)
@@ -111,28 +105,27 @@ console.log(typeof '') */
 // console.log(Boolean(3 > 5))
 // console.log(Boolean(3 > 2))
 
-
 const myCar = {
-    make : 'ford',
-    model : 'Mustang',
-    year : 1965,
-    color : 'Black'
-  }
+  make: "ford",
+  model: "Mustang",
+  year: 1965,
+  color: "Black",
+};
 
-  console.log(myCar)
-  
-  myCar.color = 'green'
-  
-  console.log(myCar)
-  
-  //   myCar = 'ford'
-  
-  myCar.sunRoof = false;
-  
-  console.log(myCar)
-  
-  myCar.age = function(current){
-      console.log(current - this.year)
-    }
-    
-myCar.age(2010)
+console.log(myCar);
+
+myCar.color = "green";
+
+console.log(myCar);
+
+//   myCar = 'ford'
+
+myCar.sunRoof = false;
+
+console.log(myCar);
+
+myCar.age = function (current) {
+  console.log(current - this.year);
+};
+
+myCar.age(2010);
