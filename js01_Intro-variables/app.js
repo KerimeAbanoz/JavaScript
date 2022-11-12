@@ -1,4 +1,4 @@
-console.log('app.js is loaded');
+console.log("app.js is loaded");
 
 // let firstName = prompt('Enter your name:');
 // alert('firstName :' + firstName);
@@ -27,17 +27,17 @@ some functions
 // ! const mevzuu
 
 const student = {
-  name: 'Nedim',
+  name: "Nedim",
   age: 34,
 };
 
 console.log(student);
 
 const otherStudent = student;
-otherStudent.name = 'Dan Brown';
+otherStudent.name = "Dan Brown";
 
 student = {
-  name: 'Ryan',
+  name: "Ryan",
   age: 44,
 };
 
@@ -47,10 +47,10 @@ console.log(otherStudent);
 // ? primitive örnek
 
 let num1 = 501;
-console.log('num1 :>> ', num1);
+console.log("num1 :>> ", num1);
 
 num1 = 888;
-console.log('num1 :>> ', num1);
+console.log("num1 :>> ", num1);
 
 let num2 = 467;
 
