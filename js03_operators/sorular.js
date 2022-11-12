@@ -36,13 +36,13 @@ stage is yours
  * pi sayisi olarak :  Math.PI / 3.1415
  */
 
-let side1 = +prompt('Enter first side');
-let side2 = +prompt('Enter second side');
-let side3 = +prompt('Enter third side');
+let side1 = +prompt("Enter first side");
+let side2 = +prompt("Enter second side");
+let side3 = +prompt("Enter third side");
 
 const perimeter = (side1 + side2 + side3) / 2;
 const area = Math.sqrt(
-  perimeter * ((perimeter - side1) * (perimeter - side2) * (perimeter - side3)),
+  perimeter * ((perimeter - side1) * (perimeter - side2) * (perimeter - side3))
 );
 
 console.log(`Area of triangle is ${area}, perimeter is ${perimeter}.`);
