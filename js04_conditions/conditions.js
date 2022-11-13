@@ -151,7 +151,6 @@ console.log("****** CONDITIONS *******");
 // const zamliMaas = maas >= asgari ? maas * 1.1 : maas * 1.5;
 // console.log(`Mevcut maaşınız ${maas} olup zam sonrasında ${zamliMaas} olarak güncellenmiştir.`)
 
-
 // ? hoca çözümü
 // const maas = Number(prompt("Maasinizi giriniz"));
 // const asgariUcret = 5500;
@@ -169,7 +168,6 @@ console.log("****** CONDITIONS *******");
 // const asgari = 5500;
 // const karar = gelir - gider >= asgari ? "Tebrikler! Kredi almaya hak kazandınız" : "Üzgünüz, tekrar deneyebilirsiniz.";
 // console.log(karar)
-
 
 // ? hoca çözümü
 // const gider = Number(prompt("Giderlerinizi giriniz"));
