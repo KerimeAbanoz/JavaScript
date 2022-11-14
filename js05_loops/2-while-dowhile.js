@@ -16,6 +16,7 @@ console.log("****** WHILE *******");
 //   not = Number(prompt("Lütfen 0 ile 100 arasında bir not giriniz"));
 // }
 
+
 // console.log("Teşekkürler, geçemediniz.");
 
 //! hoca çözümü
