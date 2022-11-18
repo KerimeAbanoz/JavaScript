@@ -28,15 +28,12 @@ fetch("https://api.github.com/users")
 
 //   console.log(userData);
 const updateDOM = (users) => {
-    console.log(users);
-    const userDiv = document.querySelector(".users");
-    users.forEach((user) => {
-        const {login, avatar_url, following_url} = user
-        // console.log(user);
-        userDiv.innerHTML += `<h2>${login}</h2>
-        <img src="${avatar_url}" width= "300px" alt=""/>`
-    })
+  console.log(users);
+  const userDiv = document.querySelector(".users");
+  users.forEach((user) => {
+    const { login, avatar_url, following_url } = user;
+    // console.log(user);
+    userDiv.innerHTML += `<h2>${login}</h2>
+        <img src="${avatar_url}" width= "300px" alt=""/>`;
+  });
 };
-
-
-
